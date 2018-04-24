@@ -38,3 +38,12 @@ public class HashMap{
          System.out.println(m.size());
      }
 }
+/* HashMap internally implement HashTable -> uses the concept of Hashing
+*          HashMap                |     HashTable
+*  Not Synchronized               |     Synchronized
+*  Not thread safe                |     thread safe
+*  High performance               |     Low performance
+*  Null is allowed for key        |  Nothing like null
+*  and value                      |
+* Introduced in 1.2 JDK           | Introduced in 1.0 So legacy
+*/
