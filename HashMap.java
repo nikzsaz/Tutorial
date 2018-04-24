@@ -33,5 +33,8 @@ public class HashMap{
          System.out.println(m.isEmpty());
          System.out.println("---------------------------");
          System.out.println(m.size());
+         System.out.println("---------------------------");
+         m.clear();
+         System.out.println(m.size());
      }
 }
