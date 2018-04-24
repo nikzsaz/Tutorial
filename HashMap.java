@@ -47,3 +47,10 @@ public class HashMap{
 *  and value                      |
 * Introduced in 1.2 JDK           | Introduced in 1.0 So legacy
 */
+
+
+/* BY default hashmap is non synchronized but we can get synchronized version of hashmap by usingsynchronizedMap() method 
+  Collections class*/
+
+//HashMap m1 = new HashMap();
+//Map m1 = Collections.synchronizedMap(m);
